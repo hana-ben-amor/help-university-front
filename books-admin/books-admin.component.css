@@ -1,0 +1,54 @@
+.input-field{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom:1px solid #bbb;
+    padding: 0;
+    font-size: 0.95rem;
+    color: #151111;
+    transition: 0.4s;
+}
+.input-wrap{
+    position: relative;
+    height: 37px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.label-filter{
+    position:absolute;
+    left: 0;
+    top: 50%;
+    font-size: 0.95rem;
+    color: #0B5ED7;
+    pointer-events: none;
+    transform: translateY(-135%);
+}
+
+.input-field.active{
+    border-bottom-color:#0B5ED7;
+}
+
+.input-field.active + label{
+    font-size: 0.75rem;
+    top: -2px;
+}
+
+form{
+    padding: 10px;
+}
+input{
+
+    border-radius: 5px;
+}
+label{
+    font-weight: large;
+    color: #0B5ED7;
+}
+
+input .active{
+    border-bottom-color:#0B5ED7;
+}
